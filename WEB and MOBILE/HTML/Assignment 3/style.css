@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    text-decoration: none;
+}
+.nav{
+    padding: 14px 20px;
+    border: 2px solid black;
+    background-color: black;
+    
+    
+ } 
+.image{ 
+    background-image: url(https://img.freepik.com/free-photo/pizzas-chicken-bbq-fried-potatoes-cheese-rolls-wooden-table_114579-4461.jpg?w=740&t=st=1706636558~exp=1706637158~hmac=0ffd245e8502f80e82a5b9d93d7221cd93f15a2e807eddba4f43f836b9dc44f1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+}
+h1{
+    padding: 14px 20px;
+}
+.button{
+    padding: 20px;
+    margin: 20px 20px 0px 20px;
+}
+.footer{
+    background-color: black;
+    color: blue;
+    padding: 14px 20px;
+}
+.span{
+    padding: 20px;
+    margin: 20px;
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+.but{
+    padding: 15px;
+}
