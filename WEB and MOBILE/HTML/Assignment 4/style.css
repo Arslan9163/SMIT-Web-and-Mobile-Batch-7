@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 10px 40px;
+}
+.image{
+    display: flex;
+    align-items: center;   
+}
+.navi{
+    display: flex;
+    align-items: center;
+    gap: 70px;
+}
+.navi li{
+    list-style: none;
+}
+.navi li a{
+    text-decoration: none;
+    color: black;
+}
+button{
+    background-color: orangered;
+    padding: 10px 25px;
+    color: white;
+}
