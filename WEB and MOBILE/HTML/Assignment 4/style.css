@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 nav{
     display: flex;
@@ -25,8 +26,73 @@ nav{
     text-decoration: none;
     color: black;
 }
-button{
+.btn{
     background-color: orangered;
     padding: 10px 25px;
     color: white;
+}
+.container{
+    display: flex;
+    align-items: center;
+    margin: 40px;
+}
+.btn1{
+    background-color: orangered;
+    padding: 10px 25px;
+    color: white;
+}
+.btn2{
+    background-color: black;
+    padding: 10px 25px;
+    color: white;
+}
+.Content{
+    line-height: 2;
+}
+.Content h1{
+    font-size: 20;
+}
+.Service1{
+    text-align: center;
+    justify-content: center;
+}
+.service2{
+    display: flex;
+    text-align: center;
+   
+}
+.btn3{
+    background-color: black;
+    padding: 10px 25px;
+    color: white;
+    text-align: center;
+}
+.FreshFruits1{
+    text-align: center;
+    justify-content: center;
+}
+.Fresh{
+    display: flex;
+    align-items: center;
+}
+.Fresh3{
+    display: flex;
+    align-items: center;
+}
+.Fresh6{
+    display: flex;
+    align-items: center;
+}
+.Testiminal{
+    text-align: center;
+}
+.ContactUs{
+    display: flex;
+    justify-content: space-between;
+}
+.itemss{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
 }
