@@ -4,11 +4,15 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
+header{
+    background-color: #f2f2f2;
+}
 nav{
     display: flex;
     justify-content: space-between;
     text-align: center;
     padding: 10px 40px;
+    background-color: #f2f2f2;
 }
 .image{
     display: flex;
@@ -31,26 +35,25 @@ nav{
     padding: 10px 25px;
     color: white;
 }
+
 .container{
     display: flex;
     align-items: center;
-    margin: 40px;
+    margin: 50px;
+    
 }
-.btn1{
-    background-color: orangered;
-    padding: 10px 25px;
-    color: white;
-}
+
 .btn2{
     background-color: black;
-    padding: 10px 25px;
+    padding: 10px 30px;
     color: white;
 }
 .Content{
-    line-height: 2;
+  width: 50%;
+  padding: 20px;
 }
 .Content h1{
-    font-size: 20;
+    font-size: 45px;
 }
 .Service1{
     text-align: center;
@@ -58,41 +61,79 @@ nav{
 }
 .service2{
     display: flex;
-    text-align: center;
-   
+    text-align: center;  
 }
-.btn3{
+.ser1{
+    border: 1px solid black;
+    margin: 20px;
+   padding: 20px;
+   align-items: center;
+
+}
+.ser1 h3{
+    color: orangered;
+}
+.btnn{
+    display: block;
+    margin: auto;
     background-color: black;
-    padding: 10px 25px;
+    padding: 10px 30px;
     color: white;
-    text-align: center;
+    
 }
 .FreshFruits1{
     text-align: center;
     justify-content: center;
+    margin-top: 20px;
 }
-.Fresh{
+.Fresh,.Fresh3,.Fresh6{
     display: flex;
     align-items: center;
+    
 }
-.Fresh3{
-    display: flex;
-    align-items: center;
+.Fresh1{
+    padding: 60px;
+    width: 60%;
+    margin-right: 70px;
 }
-.Fresh6{
-    display: flex;
-    align-items: center;
+.Fresh2{
+    padding: 20px;
+    padding-right: 20px;
+    
 }
+
 .Testiminal{
     text-align: center;
+    padding: 20px;
 }
 .ContactUs{
     display: flex;
     justify-content: space-between;
+    padding: 20px;
 }
+.form1{
+    padding: 20px;
+}
+.ok{
+    display: block;
+    border: none;
+    border-bottom: 1px solid black;
+     margin-bottom: 4vh;
+     width: 45vw;
+    font-size: large;
+}
+
 .itemss{
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    
+    align-items: center;  
+    padding: 20px; 
+}
+.itemm{
+    width: 5%;
+}
+footer{
+    text-align: center;
+    padding: 20px;
+    background-color: #f2f2f2;
 }
