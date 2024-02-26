@@ -1,0 +1,223 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  background-color: #0a192f;
+  color: white;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+}
+.nav2 {
+  display: flex;
+  gap: 80px;
+}
+.nav2 ul {
+  display: flex;
+  gap: 70px;
+  list-style: none;
+  align-items: center;
+}
+a {
+  text-decoration: none;
+  color: rgb(100 255 210);
+}
+.nav2 button {
+  padding: 10px 25px;
+  border-color:rgb(100 255 210);
+  border-radius: 5px;
+}
+.About {
+  width: 50%;
+  position: relative;
+  left: 10%;
+  line-height: 1.3;
+}
+.About p,
+.About h1,
+.About button {
+  margin-bottom: 40px;
+}
+.About h1 {
+  font-size: 46px;
+}
+
+.About button {
+  padding: 20px 40px;
+  border-color: rgb(100 255 210);
+  border-radius: 5px;
+ 
+}
+.about {
+  display: flex;
+  gap: 10%;
+  align-items: center;
+}
+
+.aboutme {
+  width: 50%;
+  margin-left: 10%;
+  margin-top: 50px;
+}
+.aboutme div {
+  margin-bottom: 20px;
+}
+.pointing {
+  margin-top: 5%;
+  margin-left: 10%;
+}
+.point {
+  display: flex;
+  width: 30%;
+  margin-left: 10%;
+  gap: 20%;
+}
+.containerr {
+  text-align: center;
+  padding: 20px;
+}
+.worked {
+  margin-left: 10%;
+  margin-top: 5%;
+  display: flex;
+}
+.worked div {
+  margin-bottom: 20px;
+}
+.w1 {
+  width: 20%;
+ 
+}
+.w2 {
+  width: 60%;
+  
+}
+.working {
+  display: flex;
+  align-items: center;
+  margin-top: 5%;
+  gap: 20px;
+}
+
+.text {
+  margin-left: 13%;
+  width: 100%;
+}
+.text div {
+  margin-bottom: 10px;
+}
+
+.pro {
+  position: relative;
+  z-index: 1;
+  padding: 25px;
+  background-color: rgb(23 42 69);
+}
+
+.image {
+  position: relative;
+  right: 5%;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+}
+.featured{
+  display: flex;
+  align-items: center;
+  margin-top: 5%;
+  gap: 20px;
+  
+}
+.image2{
+  width: 100%;
+  margin-left: 13%;
+}
+.java{
+  position: relative;
+  background-color: rgb(23 42 69);
+  right: 20%;
+  padding: 25px;
+
+}
+.featuredtext div{
+ margin-bottom: 10px;
+}
+.projectss{
+  margin: 5% 0;
+  text-align: center;
+}
+.containera,.containerb{
+  display: flex; 
+  margin: 0 8% 0 13%;
+}
+.con{
+  width: 30%;
+  margin: 20px;
+  padding: 20px;
+  line-height: 1.5;
+ 
+
+}
+.containera div,.containerb div{
+  margin-bottom: 30px;
+  background-color:rgb(23 42 69);
+}
+.btn3{
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.btn3 button{
+  padding: 20px 35px;
+  color: rgb(100 255 210);
+  border-radius: 5px;
+}
+
+.next{
+  margin-top: 10%;
+}
+.next div{
+  text-align: center;
+  margin-bottom: 10px;
+}
+.cur{
+  margin: 5% 25%;
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 35px;
+}
+.btn4{
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.btn4 button{
+  padding: 20px 35px;
+  color: rgb(100 255 210);
+  border-radius: 5px;
+  margin-bottom: 15%;
+}
+.containerrr {
+  position: fixed;
+  bottom: 10px;
+  right: 20px;
+  
+}
+.name1 {
+  writing-mode: vertical-lr;
+  font-size: 12px;
+ 
+}
+.name2 {
+  border-left: 1px solid black;
+  padding-left: 10px;
+  height: 120px;
+  margin-left: 7px;
+}
