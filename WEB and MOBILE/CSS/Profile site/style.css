@@ -4,7 +4,7 @@
   box-sizing: border-box;
   font-family: sans-serif;
   background-color: #0a192f;
-  color: white;
+  color: rgb(196, 183, 183);
 }
 
 .nav {
@@ -45,7 +45,7 @@ a {
   margin-bottom: 40px;
 }
 .About h1 {
-  font-size: 46px;
+  font-size: 40px;
 }
 
 .About button {
@@ -163,8 +163,6 @@ img {
   margin: 20px;
   padding: 20px;
   line-height: 1.5;
- 
-
 }
 .containera div,.containerb div{
   margin-bottom: 30px;
@@ -209,12 +207,10 @@ img {
   position: fixed;
   bottom: 10px;
   right: 20px;
-  
 }
 .name1 {
   writing-mode: vertical-lr;
   font-size: 12px;
- 
 }
 .name2 {
   border-left: 1px solid black;
@@ -222,3 +218,73 @@ img {
   height: 120px;
   margin-left: 7px;
 }
+ /* mediaquery */
+
+ @media only screen and (max-width: 768px) {
+  .nav2{
+    display: none;
+  }
+  .About{
+    display: block;
+    width: 87%;
+  
+  }
+  .about{
+  
+    /* flex-direction: column;
+    align-items: flex-start; */
+    display: block;
+    /* width: 87%; */
+  }
+  .aboutme{
+    display: block;
+    width: 87%;
+  }
+ 
+  .profile{
+    text-align: center;
+    margin-top: 10%;
+    
+  }
+  .point{
+   
+    flex-direction: column;
+    margin-top: 10%;
+    width: 87%;
+  }
+  .worked{
+    /* display: flex; */
+    gap: 20px;
+  }
+  .w1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30px;
+  }
+  .w2{
+    margin-top: 10%;
+    position: relative;
+    right: 92px;
+    width: auto;
+    
+  }
+  
+  .containera, .containerb {
+    display: block; 
+  }.con {
+    width: auto; 
+    margin: 20px 0; 
+  }
+  .cur{
+    width: auto; 
+    margin: 20px 20px; 
+  }
+  .containerrr{
+  position: fixed;
+  right: 0px;
+  }
+  
+  }
+
+  
