@@ -1,0 +1,54 @@
+<!-- A js program to input the week number and print weekday. -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Webpage</title>
+    <script>
+        let daysOfWeek = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
+
+        let number = parseInt(prompt("Enter the week number"));
+      
+        if (number >= 1 && number <= 7) {
+          console.log(daysOfWeek[number - 1]); 
+        } else {
+          console.log(`${number} is not a valid week day`);
+        }
+    </script>
+  </head>
+  <body></body>
+</html>
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Webpage</title>
+    <script>
+        
+        let number = parseInt(prompt("Enter the week number"));
+      
+        if (number == 1 ) {
+          console.log(`Monday`);
+        }else if (number == 2 ) {
+          console.log(`Tuesday`);}
+          else if (number == 3 ) {
+          console.log(`Wednesday`);}
+          else if (number == 4 ) {
+          console.log(`Thursday`);}
+          else if (number == 5 ) {
+          console.log(`Friday`);}
+          else if (number == 6 ) {
+          console.log(`saturday`);}
+          else if (number == 7 ) {
+          console.log(`Sunday`);
+        }else{
+            console.log(`${number} is not Day`);}
+    </script>
+  </head>
+  <body></body>
+</html> -->

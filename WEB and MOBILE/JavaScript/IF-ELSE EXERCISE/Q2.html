@@ -1,0 +1,28 @@
+<!-- A js program to find the maximum between three numbers. -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Webpage</title>
+    <script>
+        let a = parseInt(prompt("Enter the value for a"));
+        let b = parseInt(prompt("Enter the value for b"));
+        let c = parseInt(prompt("Enter the value for c"));
+
+        if (a > b && a > c) {
+          console.log(`${a} is greater than ${b} and ${c}`);
+        } else if (b > a && b > c) {
+          console.log(`${b} is greater than ${a} and ${c}`);
+        } else if (c > a && c > b) {
+          console.log(`${c} is greater than ${a} and ${b}`);
+        } else if (a === b && b === c) {
+          console.log(`${a}, ${b}, and ${c} are all equal`);
+        } else {
+          console.log("There are multiple numbers with the maximum value");
+        }
+    </script>
+  </head>
+  <body></body>
+</html>

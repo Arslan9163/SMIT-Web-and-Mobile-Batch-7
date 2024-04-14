@@ -1,0 +1,26 @@
+<!-- A js program to input the month number and print the number of days in that month. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Webpage</title>
+  <script>
+    let monthNumber = parseInt(prompt("Enter the month number (1-12)"));
+
+    if (monthNumber >= 1 && monthNumber <= 12) {
+      if (monthNumber === 2) {
+        console.log(`Number of days in February: 28 or 29 (depending on the leap year)`);
+      } else if (monthNumber === 4 || monthNumber === 6 || monthNumber === 9 || monthNumber === 11) {
+        console.log(`Number of days in month ${monthNumber}: 30`);
+      } else {
+        console.log(`Number of days in month ${monthNumber}: 31`);
+      }
+    } else {
+      console.log("Please enter a number between 1 and 12.");
+    }
+  </script>
+</head>
+<body></body>
+</html>
